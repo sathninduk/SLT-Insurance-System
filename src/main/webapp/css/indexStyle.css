@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.split-screen__container {
+    display: flex;
+}
+
+.left-screen__container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    flex: 35vw;
+    height: 100vh;
+    background: url('../images/login-index-two.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.right-screen__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex: 65vw;
+    height: 100vh;
+    background: url('../images/login-index.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.right-screen__container h1, .right-screen__container a{
+    color: #fff;
+}
+
+.left-screen__container h1, .left-screen__container a, .left-screen__container p{
+    color: #fff;
+}
+
+label {
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.left-screen__container h1 {
+    text-align: left;
+}
+
+.input1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    margin-bottom: 30px;
+}
+
+.login100-more {
+    width: calc(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #e0f0ed;
+    color: #e0f0ed;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: #7f8601;
+}
